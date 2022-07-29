@@ -1,0 +1,1 @@
+import styled,{PcreateGlobalStyle} from 'styled'
