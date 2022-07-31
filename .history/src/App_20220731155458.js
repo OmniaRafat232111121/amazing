@@ -11,8 +11,7 @@ const App = () => {
   return (
     <div className='app'>
     <GlobalStyle/>
-    <Navbar/>
-    <HomePages/>
+    <Navbar
     </div>
 	);
 }

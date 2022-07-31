@@ -12,7 +12,6 @@ const App = () => {
     <div className='app'>
     <GlobalStyle/>
     <Navbar/>
-    <HomePages/>
     </div>
 	);
 }

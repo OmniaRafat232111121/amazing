@@ -12,7 +12,7 @@ const App = () => {
     <div className='app'>
     <GlobalStyle/>
     <Navbar/>
-    <HomePages/>
+    <Home
     </div>
 	);
 }

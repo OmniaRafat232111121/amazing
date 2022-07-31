@@ -14,7 +14,7 @@ const Navbar = () => {
     <Nav>
     <NavbarContainer>
      <NavLogo to="/">
-     <NavIcon src="./images/logo.svg" alt="" />
+     <NavIcon src=".images/logo.svg" alt="" />
 						esignify
             <NavIcon/>
      </NavLogo>
