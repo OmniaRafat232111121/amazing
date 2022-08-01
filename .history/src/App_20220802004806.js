@@ -11,6 +11,7 @@ function App() {
 		<GlobalStyle />
 		<Navbar />
         <HomePages/>
+     
 	  <Footer />
 	  </>
 	);

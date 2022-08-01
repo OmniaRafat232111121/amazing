@@ -7,12 +7,14 @@ import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
-		<>
+		<Rou
 		<GlobalStyle />
 		<Navbar />
+     
         <HomePages/>
+     
 	  <Footer />
-	  </>
+  </Router>
 	);
 }
 
