@@ -15,7 +15,7 @@ const HomePages = () => {
 			<Clients/>
 			<Heading id="projects">Our Projects</Heading>
 		    <Content {...heroOne} />
-		
+			<Content
 		</>
 	);
 };
