@@ -13,8 +13,8 @@ import {
 	CharacterContainer,
 } from './HeroStyles';
 import { useInView } from 'react-intersection-observer';
-
-import Modal from '../Modal/Modal';
+import { ModalWrapper } from '../Modal/ModelStyles';
+import Modal from '../Modal/Model';
 
 
 const Hero = () => {

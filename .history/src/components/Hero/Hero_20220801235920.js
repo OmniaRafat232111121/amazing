@@ -14,9 +14,6 @@ import {
 } from './HeroStyles';
 import { useInView } from 'react-intersection-observer';
 
-import Modal from '../Modal/Modal';
-
-
 const Hero = () => {
 	const [showModal, setShowModal] = useState(false);
 	const dragConstraints = { top: 0, bottom: 0, right: 0, left: 0 };
@@ -50,7 +47,6 @@ const Hero = () => {
 
 	return (
 		<>
-		
 			<HeroSection id="hero">
 				<HeroImage className="pattern" src="./images/hero-pattern-bg-lg.png" />
 				<HeroImage className="guy" src="./images/hero-guy-1.png" />
@@ -93,7 +89,9 @@ const Hero = () => {
 					</ButtonContainer>
 				</HeroContent>
 			</HeroSection>
+			<Mo
 			<Modal showModal={showModal} toggleModal={toggleModal} />
+		
 		</>
 	);
 };

@@ -13,8 +13,7 @@ import {
 	CharacterContainer,
 } from './HeroStyles';
 import { useInView } from 'react-intersection-observer';
-
-import Modal from '../Modal/Modal';
+import { ModalWrapper } from '../Modal/ModelStyles';
 
 
 const Hero = () => {
@@ -93,7 +92,7 @@ const Hero = () => {
 					</ButtonContainer>
 				</HeroContent>
 			</HeroSection>
-			<Modal showModal={showModal} toggleModal={toggleModal} />
+	<Modal
 		</>
 	);
 };

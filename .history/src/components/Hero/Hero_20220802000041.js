@@ -14,8 +14,6 @@ import {
 } from './HeroStyles';
 import { useInView } from 'react-intersection-observer';
 
-import Modal from '../Modal/Modal';
-
 
 const Hero = () => {
 	const [showModal, setShowModal] = useState(false);
@@ -93,7 +91,7 @@ const Hero = () => {
 					</ButtonContainer>
 				</HeroContent>
 			</HeroSection>
-			<Modal showModal={showModal} toggleModal={toggleModal} />
+	<Mod
 		</>
 	);
 };

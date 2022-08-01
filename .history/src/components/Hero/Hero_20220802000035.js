@@ -14,8 +14,6 @@ import {
 } from './HeroStyles';
 import { useInView } from 'react-intersection-observer';
 
-import Modal from '../Modal/Modal';
-
 
 const Hero = () => {
 	const [showModal, setShowModal] = useState(false);
@@ -93,7 +91,23 @@ const Hero = () => {
 					</ButtonContainer>
 				</HeroContent>
 			</HeroSection>
-			<Modal showModal={showModal} toggleModal={toggleModal} />
+			import React, { useEffect, useState } from 'react';
+			import { FiMail } from 'react-icons/fi';
+			import {
+				HeroSection,
+				Heading,
+				HeroText,
+				ButtonContainer,
+				HeroButton,
+				ImageCharacter,
+				HeroImage,
+				HeroContent,
+				ButtonWrapper,
+				CharacterContainer,
+			} from './HeroStyles';
+			import { useInView } from 'react-intersection-observer';
+			import Modal from '../Modal/Modal';
+			
 		</>
 	);
 };

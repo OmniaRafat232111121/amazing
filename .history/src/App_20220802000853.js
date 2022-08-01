@@ -9,7 +9,7 @@ import HomePages from './Pages/HomePages'
 function App() {
 	return (
 		<>
-		<Navbar/>
+		
 		   <GlobalStyle />
            
 		   <HomePages/>
